@@ -4,7 +4,7 @@ I am making this project to learn new technologies and learn about new developme
 
 # New Technologies in this Project:
 
-In this project, I will be working with a Windows OS, and plan to use the Angular framework for the front end and the Spring Boot framework for the backend, it will also be my first time using Visual Studio Code on a larger project.
+In this project, I will be working with a Windows OS, and plan to use the Angular framework with TypeScript for the front end and the Spring Boot framework with Java for the backend, it will also be my first time using the Visual Studio Code IDE on a larger project.
 
 # Type of Application
 
