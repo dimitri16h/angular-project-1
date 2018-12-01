@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 export class Task {
   constructor(
-    public id: number, 
-    public description: string, 
+    public id: number,
+    public description: string,
     public complete: boolean,
     public targetDate: Date
-    ){
+    ) {
 
     }
 }
@@ -25,7 +25,7 @@ export class TodoListComponent implements OnInit {
     // {id : 1, description : 'Learn Angular'},
     // {id : 2, description : 'Learn Spring Boot'},
     // {id : 3, description : 'Launch a full stack app'}
-  ]
+  ];
 
   constructor() { }
 

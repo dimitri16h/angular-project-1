@@ -8,6 +8,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     WelcomeComponent,
     LoginComponent,
     ErrorComponent,
-    TodoListComponent
+    TodoListComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

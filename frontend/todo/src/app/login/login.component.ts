@@ -8,10 +8,10 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  username = "username"
-  password = ""
-  errorMessage = "Invalid Credentials"
-  invalidLogin = false
+  username = 'username';
+  password = '';
+  errorMessage = 'Invalid Credentials';
+  invalidLogin = false;
 
   constructor(private router: Router) { }
 
@@ -21,12 +21,11 @@ export class LoginComponent implements OnInit {
   handleLogin() {
 
     // console.log(this.username);
-    if (this.username === "username" && this.password === "password") {
+    if (this.username === 'username' && this.password === 'password') {
       // redirect to Welcome Page
-      this.router.navigate(['welcome', this.username])
+      this.router.navigate(['welcome', this.username]);
       this.invalidLogin = false;
-    }
-    else {
+    } else {
       this.invalidLogin = true;
     }
   }
