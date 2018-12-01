@@ -21,6 +21,7 @@ export class LoginComponent implements OnInit {
 
     // console.log(this.username);
     if (this.username === "username" && this.password === "password") {
+      // redirect to Welcome Page
       this.invalidLogin = false;
     }
     else {
