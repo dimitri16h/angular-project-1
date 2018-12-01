@@ -1,0 +1,20 @@
+<table border="1">
+  <caption>My Tasks</caption>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Target Date</th>
+      <th>Completed?</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- equivalent to v-for in vue.js -->
+    <tr *ngFor="let task of tasks">
+      <td>{{task.description}}</td>
+      <td>{{task.targetDate | date}}</td>
+      <td>{{task.complete}}</td>
+    </tr>
+
+  </tbody>
+</table>
