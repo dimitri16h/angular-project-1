@@ -1,20 +1,23 @@
-<table border="1">
-  <caption>My Tasks</caption>
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Target Date</th>
-      <th>Completed?</th>
-    </tr>
-  </thead>
-  <tbody>
+<h1>My Tasks</h1>
 
-    <!-- equivalent to v-for in vue.js -->
-    <tr *ngFor="let task of tasks">
-      <td>{{task.description}}</td>
-      <td>{{task.targetDate | date}}</td>
-      <td>{{task.complete}}</td>
-    </tr>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Target Date</th>
+        <th>Completed?</th>
+      </tr>
+    </thead>
+    <tbody>
 
-  </tbody>
-</table>
+      <!-- equivalent to v-for in vue.js -->
+      <tr *ngFor="let task of tasks">
+        <td>{{task.description}}</td>
+        <td>{{task.targetDate | date}}</td>
+        <td>{{task.complete}}</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
