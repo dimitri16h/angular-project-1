@@ -4,7 +4,14 @@ I am making this project to learn new technologies and learn about new developme
 
 # New Technologies in this Project:
 
-In this project, I will be working with a Windows OS, and plan to use the Angular framework with TypeScript for the front end and the Spring Boot framework with Java for the backend, it will also be my first time using the Visual Studio Code IDE on a larger project.
+In this project, I will be working with a Windows OS, and plan to use the Angular framework with TypeScript for the front end and the Spring Boot framework with Java for the backend, it will also be my first time using the Visual Studio Code IDE on a larger project. Below is a brief list of technologies I will be using, I will continue to add to it as it grows.
+
+* Angular 7.0.4
+* Angular CLI 7.0.7
+* Node 10.14.1
+* npm 6.4.1
+* SpringBoot 2.1.1
+* Java 8
 
 # Type of Application
 
