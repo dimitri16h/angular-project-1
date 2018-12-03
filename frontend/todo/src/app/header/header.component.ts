@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
 
   // isUserLoggedIn: boolean = false;
 
-  constructor(private hardcodedAuthService : HardcodedAuthService) { }
+  constructor(private hardcodedAuthService: HardcodedAuthService) { }
 
   ngOnInit() {
     // this.isUserLoggedIn = this.hardcodedAuthService.isUserLoggedIn();
